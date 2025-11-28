@@ -1,0 +1,433 @@
+@font-face {
+    font-family: "orbitron";
+    src: url("font/orbitron.ttf");
+}
+
+@font-face {
+    font-family: "fontnova";
+    src: url("font/fontnova.ttf");
+}
+
+body {
+    color:  red;
+    background: black;
+    margin: 0px;
+    font-family: "Orbitron", sans-serif;
+    width: auto;
+}
+
+.pincial{
+    display: block;
+    position: relative;
+    margin: 0;
+    height: 100%;
+    width: auto;
+    background-size:cover ;
+    align-content: center;
+}
+
+#titulo{
+    position: auto;
+    color: rgb(255, 10, 10);
+    font-size: 10em;
+    text-align: center;
+    background-clip: text;
+    filter:grayscale(0) drop-shadow(0px 0px 10px rgb(206, 5, 5));
+    
+}   
+
+#titulo:hover {
+    border-bottom: solid 2px rgb(121, 21, 121);
+    text-shadow: 0px 0px 10px rgb(255, 10, 10);
+    cursor: pointer;
+    
+}
+
+header{
+    border-bottom: solid 2px rgb(121, 21, 121);
+    padding: 5px;
+    font-size: 23px;
+    color: rgb(255, 10, 10);
+    text-shadow: 0px 0px 25px rgb(255, 10, 10);
+    display: block;
+    cursor: pointer;
+    
+}
+
+.botoes{
+    display: block;
+    cursor: pointer;
+}
+
+.voltar{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 2px;
+    background-color: #000000a8;
+    z-index: 2;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.chamada-texto {
+    background: linear-gradient(to left, white 0% 20%, black 30% 70%,white 80% 100%);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#series{
+   margin-top: 4px;
+   border-bottom: solid 1px transparent;
+}
+
+.categoria{
+    font-size: 28px;
+    display: block;
+    height: auto;
+}
+
+.categoria:hover{
+    cursor: pointer;
+}
+
+#episodio1{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;  
+  
+}
+
+#episodio1 img{
+    opacity: 0.8;
+    height: 200px;
+    border: 5px;
+    margin: 10px;
+    color: rgb(255, 0, 0);
+    filter:grayscale(1) ;
+}
+
+#episodio1 img:hover
+{
+    opacity:1.0;
+    border: 5px solid;
+    border-radius: 5%;
+    filter:grayscale(0) drop-shadow(0px 0px 10px rgb(150, 0, 0));
+}
+
+#episodio1:hover{
+    cursor: pointer;
+}
+
+h1{
+   font-size: 34px;
+    background-color:rgba(0, 0, 0, 0);
+
+}
+
+p {
+   font-size: 17;
+
+
+}
+
+section {
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 50px;
+
+}
+
+#episodio2{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;  
+}
+
+#episodio2 img{
+    opacity: 0.8;
+    height: 200px;
+    border: 5px;
+    margin: 10px;
+    color: rgb(89, 0, 255);
+    filter:grayscale(1)
+}
+
+#episodio2 img:hover {
+    opacity:1.0;
+    border: 5px solid;
+    border-radius: 5%;
+    filter:grayscale(0) drop-shadow(0px 0px 10px rgb(63, 1, 179));
+}
+
+
+
+#episodio3{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;  
+}
+
+#episodio3 img{
+    opacity: 0.8;
+    height: 200px;
+    border: 5px;
+    margin: 10px;
+    color: rgb(209, 96, 3);
+    filter:grayscale(1)
+   
+}
+
+#episodio3 img:hover {
+    opacity:1.0;
+    border: 5px solid;
+    border-radius: 5%;
+    filter:grayscale(0) drop-shadow(0px 0px 10px rgb(163, 75, 3));
+}
+
+#episodio3:hover{
+    cursor: pointer;
+}
+
+#episodio4{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;  
+}
+
+#episodio4 img{
+    opacity: 0.8;
+    height: 200px;
+    border: 5px;
+    margin: 10px;
+    color: rgb(201, 171, 0);
+    filter:grayscale(1);
+}
+
+#episodio4 img:hover {
+    opacity:1.0;
+    border: 5px solid;
+    border-radius: 5%;
+    filter:grayscale(0) drop-shadow(0px 0px 10px rgb(153, 130, 2));
+}
+
+#episodio4:hover{
+    cursor: pointer;
+}
+
+#episodio5{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;  
+}
+
+#episodio5 img{
+    opacity: 0.8;
+    height: 200px;
+    border: 5px;
+    margin: 10px;
+    color: rgb(26, 189, 89);
+    filter:grayscale(1);
+}
+
+#episodio5 img:hover {
+    opacity:1.0;
+    border: 5px solid;
+    border-radius: 5%;
+    filter:grayscale(0) drop-shadow(0px 0px 10px rgb(17, 126, 59));
+}
+
+#episodio5:hover{
+    cursor: pointer;
+}
+
+#episodio6{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;  
+}
+
+#episodio6 img{
+    opacity: 0.8;
+    height: 200px;
+    border: 5px;
+    margin: 10px;
+    color: rgb(25, 0, 255);
+    filter:grayscale(1)
+}
+
+#episodio6 img:hover {
+    opacity:1.0;
+    border: 5px solid;
+    border-radius: 5%;
+    filter:grayscale(0) drop-shadow(0px 0px 10px rgb(16, 0, 160));
+}
+
+#episodio6:hover{
+    cursor: pointer;
+}
+
+#episodio7{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;  
+}
+
+#episodio7 img{
+    opacity: 0.8;
+    height: 200px;
+    border: 5px;
+    margin: 10px;
+    color: aliceblue;
+    filter:grayscale(1)
+}
+
+#episodio7 img:hover {
+    opacity:1.0;
+    border: 5px solid;
+    border-radius: 5%;
+    filter:grayscale(0) drop-shadow(0px 0px 10px rgb(185, 214, 240));
+}
+
+#episodio7:hover{
+    cursor: pointer;
+}
+
+#episodio8{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+}
+
+#episodio8 img{
+    filter: grayscale(1);
+    height: 200px;
+    border: 5px;
+    margin: 10px;
+    color: rgba(156, 6, 6, 0.884);
+}
+
+#episodio8 img:hover {
+    opacity:1.0;
+    border: 5px solid;
+    border-radius: 5%;
+    filter: grayscale(0) drop-shadow(0px 0px 10px rgba(156, 6, 6, 0.884));
+}
+
+#episodio8:hover{
+    cursor: pointer;
+}
+
+#lala{
+    border-bottom: solid 2px rgb(121, 21, 121);
+    padding: 1%;
+    font-size: 23px;
+    color: rgb(255, 10, 10);
+    text-shadow: 0px 0px 25px rgb(255, 10, 10);
+}
+
+
+.modal{
+    display: none; 
+    position: absolute; 
+    z-index: 1; 
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    position: absolute;
+    top: 390px;
+    left: 20px;
+    background-color: #000000;
+    margin:0; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: auto; 
+    height: auto;
+    color: white;
+    font-family: "fontnova";
+    overflow-y: auto;
+    text-align: justify;
+}
+
+.close{
+    display: block;
+    border: 0;
+    color: #888;
+    font-size: 20px;
+}
+
+.close:hover{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.resumos{
+    display: block;
+    position: fixed;
+    top: 335px;
+    
+}
+
+.unico{
+    margin: 20px;
+    font-size: 10px;
+}
+
+#episodio9{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;  
+}
+
+#episodio9 img{
+    opacity: 0.8;
+    height: 200px;
+    border: 5px;
+    margin: 10px;
+    color: rgb(153, 3, 3);
+    filter:grayscale(1)
+}
+
+#episodio9 img:hover {
+    opacity:1.0;
+    border: 5px solid;
+    border-radius: 5%;
+    filter:grayscale(0) drop-shadow(0px 0px 10px rgb(153, 3, 3));
+}
+
+#episodio9:hover{
+    cursor: pointer;
+}
+
+#players{
+
+    border-radius: 5%;
+    height: auto;
+    width: auto;
+    display: flex;
+    overflow-x: auto;
+}
+
+#players img {
+    height: 250;
+    margin: 10px;
+    
+}
+
+#title1{
+    margin-left: 10px;
+}
